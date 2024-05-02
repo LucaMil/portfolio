@@ -14,6 +14,8 @@ header {
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    z-index: 1;
+    top: 0px;
 }
 
 nav {
@@ -33,7 +35,7 @@ nav li {
 nav a {
     background-color: #E0E0E0;
     color: #353535;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-family: 'Sedan';
 }
 
@@ -65,4 +67,82 @@ p {
     font-family: "DM Serif Display";
     font-size: 1.2rem;
     letter-spacing: 0.5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav a {
+       font-size: 1rem; 
+    }
+
+    nav {
+        margin-left: 0.2rem;
+
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        margin: 0.2rem;
+    }
+
+    .aboutme {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .aboutme h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav a {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        left: 1rem;
+    }
+
+    nav {
+        right: 1rem;
+    }
+
+    .abooutme {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .aboutme h2 {
+        font-size: 1.6rem;
+    }
+
+    .aboutme p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        font-size: 0.6rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+        left: 1rem;
+        width: 20%;
+        text-align: center;
+    }
+    nav {
+        right: 1rem;
+    }
+
+    header {
+        padding-bottom: 0.5rem;
+        align-items: center;
+    }
+
+    .aboutme p {
+        font-size: 0.8rem;
+    }
 }
