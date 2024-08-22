@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 body {
@@ -16,6 +16,7 @@ header {
     width: 100%;
     z-index: 1;
     top: 0px;
+    border-bottom: solid 1px black;
 }
 
 nav {
@@ -68,6 +69,22 @@ p {
     font-size: 1.2rem;
     letter-spacing: 0.5px;
 }
+
+.projects {
+    position: relative;
+    text-align: center;
+    top: 12rem;
+    background-color: #E0E0E0;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding: 0.5rem;
+}
+
+.projects .projcontent {
+    display: inline-block;
+}
+
+
 
 @media only screen and (max-width: 1000px) {
     nav a {
