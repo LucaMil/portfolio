@@ -89,7 +89,38 @@ img {
     height: 50%;
 }
 
+.skills { 
+    position: relative;
+    text-align: center;
+    top: 14rem;
+    background-color: #E0E0E0;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding: 0.5rem;
+}
 
+.skills-logo {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.skills-logo img {
+    width: 10%;
+    height: 10%;
+    margin: 1rem;
+}
+
+.contact {
+    position: relative;
+    text-align: center;
+    top: 16rem;
+    background-color: #E0E0E0;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding: 0.5rem;
+}
+ 
 
 @media only screen and (max-width: 1000px) {
     nav a {
